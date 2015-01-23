@@ -7,5 +7,5 @@ abstract class Search {
     DateTime startTime, endTime;
     UPI upi;
     
-    public 
+    public Search(AssetClass ac, Asset a, int minP, int maxP, Currency c, DateTime st, DateTime et, UPI upi){};
 }
