@@ -17,7 +17,7 @@ abstract class Trade {
 	Date endDate;
 	AssetClass assetClass;
 	SubAssetClass subAssetClass;
-	??? taxonomy;
+	??? taxonomy; 
 	PriceFormingContinuationData priceFormingContinuationData;
 	String underlyingAsset1;
 	String underlyingAsset2;
