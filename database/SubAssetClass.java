@@ -1,4 +1,4 @@
 enum SubAssetClass {
-  Energy,
-  Metals
+  ENERGY,
+  METALS;
 }
