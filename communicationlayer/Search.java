@@ -6,4 +6,6 @@ abstract class Search {
     Currency currency;
     DateTime startTime, endTime;
     UPI upi;
+    
+    public 
 }
