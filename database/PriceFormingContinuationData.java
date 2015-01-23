@@ -1,4 +1,4 @@
 enum PriceFormingContinuationData {
   Termination,
-  Trade
+  Trade;
 }
