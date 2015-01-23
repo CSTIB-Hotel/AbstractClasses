@@ -1,4 +1,5 @@
-abstract class Search{
+abstract class Search {
+    
     AssetClass assetClass;
     Asset asset;
     int minPrice, maxPrice;
