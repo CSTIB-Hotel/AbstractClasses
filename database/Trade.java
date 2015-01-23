@@ -17,7 +17,7 @@ abstract class Trade {
 	Date endDate;
 	AssetClass assetClass;
 	SubAssetClass subAssetClass;
-	??? taxonomy; 
+	??? taxonomy; //We need to understand what is the structure of this, inside the .csv files
 	PriceFormingContinuationData priceFormingContinuationData;
 	String underlyingAsset1;
 	String underlyingAsset2;
