@@ -7,7 +7,7 @@ abstract class GUI {
 	
 	public GUI(){
 		throw new UnsupportedOperationException("This method has not yet been implemented.");
-    }
+    	}
 	
 	SearchWindow search;
 	ErrorWindow error;
