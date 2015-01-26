@@ -11,5 +11,11 @@ abstract class CSVTradeFile extends File{
 	throw new UnsupportedOperationException("This function has not yet been implemented.");
 	// you can't have abstract constructors
     }
+    
+    /**
+     * 
+     * @param i the ith row to fetch
+     * @return the ith row as a Trade object
+     */
     abstract Trade getTrade(int i);
 }

@@ -6,9 +6,29 @@ import AbstractClasses.CommunicationLayer.SearchResult;
 import AbstractClasses.Trade.UPI;
 import java.util.Date;
 
+/**
+ * 
+ * @author Wai-Wai Ng
+ */
 abstract class Database{
-    abstract protected void addTrade(Trade trade);
+    
+    /**
+     * Adds a trade to the database
+     * @param trade a trade to be added to the database
+     */
+    abstract void addTrade(Trade trade);
+    
+    /**
+     * Adds a CSV file listing trades to the database
+     * @param csv the relevant CSV file
+     */
     abstract void addTrades(CSVTradeFile csv);
+    
+    /**
+     * 
+     * @param s the search parameters
+     * @return all data matching the search 
+     */
     abstract SearchResult search(Search s);
     
     /**
