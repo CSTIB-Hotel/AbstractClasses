@@ -1,13 +1,15 @@
 package AbstractClasses.CommunicationLayer;
 
 import AbstractClasses.Trade.AssetClass;
+import AbstractClasses.Trade.TradeType;
 import AbstractClasses.Trade.UPI;
 import java.util.Currency;
 import java.util.Date;
 
 public abstract class Search {
     
-    AssetClass assetClass;
+	TradeType tradeType;   
+	AssetClass assetClass;
     String asset;
     int minPrice, maxPrice;
     Currency currency;
@@ -15,6 +17,6 @@ public abstract class Search {
     UPI upi;
     
     public Search(AssetClass ac, String asset, int minP, int maxP, Currency c, Date st, Date et, UPI upi) {
-	throw new UnsupportedOperationException("This method has not yet been implemented.");
+		throw new UnsupportedOperationException("This method has not yet been implemented.");
     };
 }

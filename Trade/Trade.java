@@ -23,6 +23,7 @@ public abstract class Trade {
 	Date endDate;
 	String dayCountConvention // e.g. ACT/360 and 1/1 30/360
 	Currency settlementCurrency;
+	TradeType tradeType;
 	AssetClass assetClass;
 	SubAssetClass subAssetClass;
 	UPI taxonomy; //TODO We need to understand what is the structure of this, inside the .csv files
