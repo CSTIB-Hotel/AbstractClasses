@@ -1,4 +1,9 @@
-abstract class Trade {
+package AbstractClasses.Trade;
+
+import java.util.Currency;
+import java.util.Date;
+
+public abstract class Trade {
 	
 	//TODO: not sure on how to represent some of these fields at the moment	
 
@@ -17,14 +22,14 @@ abstract class Trade {
 	Date endDate;
 	AssetClass assetClass;
 	SubAssetClass subAssetClass;
-	??? taxonomy; //We need to understand what is the structure of this, inside the .csv files
+	String taxonomy; //TODO We need to understand what is the structure of this, inside the .csv files
 	PriceFormingContinuationData priceFormingContinuationData;
 	String underlyingAsset1;
 	String underlyingAsset2;
 	String priceNotationType;
 	int priceNotation;
-	String notionalCurrency1;
-	String notionalCurrency2;
+	Currency notionalCurrency1;
+	Currency notionalCurrency2;
 	long roundedNotionalAmount1;
 	long roundedNotionalAmount2;
 	

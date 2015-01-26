@@ -1,3 +1,5 @@
+package AbstractClasses.GUI;
+
 abstract class searchWindow {
     DropdownBox selectAsset;
     TextBox selectUPI;
