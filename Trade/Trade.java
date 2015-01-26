@@ -22,7 +22,7 @@ public abstract class Trade {
 	Date endDate;
 	AssetClass assetClass;
 	SubAssetClass subAssetClass;
-	String taxonomy; //TODO We need to understand what is the structure of this, inside the .csv files
+	UPI taxonomy; //TODO We need to understand what is the structure of this, inside the .csv files
 	PriceFormingContinuationData priceFormingContinuationData;
 	String underlyingAsset1;
 	String underlyingAsset2;

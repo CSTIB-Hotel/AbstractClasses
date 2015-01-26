@@ -1,3 +1,3 @@
 package AbstractClasses.Trade;
 
-public enum AssetClass{ COMMODITIES, CREDITS, EQUITY, FOREX, RATES; }
+public enum AssetClass{ Commodity, Credit, Equity, ForeignExchange, Rates; }
