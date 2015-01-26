@@ -11,8 +11,6 @@ public interface SearchListener() {
 	 * Called by the communication layer when a search result is available. This function
 	 * should dictate how this result is handled.
 	 */		
-	abstract SearchResult getSearchResult(SearchResult s) {
-		
-	}
+	abstract SearchResult getSearchResult(SearchResult s);
 
 }
