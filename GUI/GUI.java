@@ -3,7 +3,7 @@ package AbstractClasses.GUI;
 import AbstractClasses.CommunicationLayer.SearchListener;
 import AbstractClasses.CommunicationLayer.SearchResult;
 
-abstract class GUI {
+abstract class GUI implements SearchListener {
 	
 	public GUI(){
 		throw new UnsupportedOperationException("This method has not yet been implemented.");
