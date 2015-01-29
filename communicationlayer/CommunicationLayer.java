@@ -1,5 +1,7 @@
 package AbstractClasses.CommunicationLayer;
 
+import java.util.List;
+
 abstract class CommunicationLayer {
 	
 	// A list of all components expecting the results of a search query	
