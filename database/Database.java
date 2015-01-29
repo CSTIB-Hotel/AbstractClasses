@@ -18,6 +18,12 @@ abstract class Database{
      */
     abstract void addTrade(Trade trade);
     
+     /**
+     * 
+     * @return The time the database was last updated
+     */
+    abstract Date getLastUpdateTime();
+       
     /**
      * Adds a CSV file listing trades to the database
      * @param csv the relevant CSV file
@@ -31,11 +37,12 @@ abstract class Database{
      */
     abstract SearchResult search(Search s);
     
+
     /**
      * 
-     * @return The time the database was last updated
+     * @param s the search to save
      */
-    abstract Date getLastUpdateTime();
+    abstract void saveSearch(Search s);
     
     
     /**
