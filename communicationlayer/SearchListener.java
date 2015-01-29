@@ -1,6 +1,6 @@
 package AbstractClasses.CommunicationLayer;
 
-public interface SearchListener() {
+public interface SearchListener {
 
 	/*
 	 * This is an interface implemented by any components that wish to receive search
