@@ -1,6 +1,6 @@
 package AbstractClasses.Trade;
 
-abstract class UPI {
+public abstract class UPI {
     
 	// This is a class to represent the UPI/taxonomy of a trade.
 	// These have the format:

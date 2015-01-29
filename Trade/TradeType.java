@@ -1,3 +1,3 @@
 package AbstractClasses.Trade;
 
-enum TradeType { SWAP, OPTION, BOTH; }
+public enum TradeType { SWAP, OPTION, BOTH; }
